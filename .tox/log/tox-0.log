@@ -1,0 +1,39 @@
+actionid=tox
+msg=packaging
+cmdargs=['/Users/bhodorog/Work/virtenv/tox/bin/python', local('/Users/bhodorog/Work/tmp/pip_conflict_resolution/parent_prj/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/bhodorog/Work/tmp/pip_conflict_resolution/parent_prj/.tox/dist')]
+env=None
+running sdist
+running egg_info
+writing requirements to parent.egg-info/requires.txt
+writing parent.egg-info/PKG-INFO
+writing top-level names to parent.egg-info/top_level.txt
+writing dependency_links to parent.egg-info/dependency_links.txt
+reading manifest file 'parent.egg-info/SOURCES.txt'
+writing manifest file 'parent.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating parent-0.1
+creating parent-0.1/parent.egg-info
+making hard links in parent-0.1...
+hard linking setup.py -> parent-0.1
+hard linking parent.egg-info/PKG-INFO -> parent-0.1/parent.egg-info
+hard linking parent.egg-info/SOURCES.txt -> parent-0.1/parent.egg-info
+hard linking parent.egg-info/dependency_links.txt -> parent-0.1/parent.egg-info
+hard linking parent.egg-info/requires.txt -> parent-0.1/parent.egg-info
+hard linking parent.egg-info/top_level.txt -> parent-0.1/parent.egg-info
+Writing parent-0.1/setup.cfg
+creating '.tox/dist/parent-0.1.zip' and adding 'parent-0.1' to it
+adding 'parent-0.1/PKG-INFO'
+adding 'parent-0.1/setup.cfg'
+adding 'parent-0.1/setup.py'
+adding 'parent-0.1/parent.egg-info/dependency_links.txt'
+adding 'parent-0.1/parent.egg-info/PKG-INFO'
+adding 'parent-0.1/parent.egg-info/requires.txt'
+adding 'parent-0.1/parent.egg-info/SOURCES.txt'
+adding 'parent-0.1/parent.egg-info/top_level.txt'
+removing 'parent-0.1' (and everything under it)
